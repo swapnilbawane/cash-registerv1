@@ -1,0 +1,96 @@
+/* import fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500&display=swap');
+
+:root { 
+    --primary-color: rgb(226, 162, 43); 
+    --secondary-color: #2B6BE2;
+
+}
+body { 
+    font-family: 'Roboto Mono', monospace;
+    background-color: var(--secondary-color);
+}
+
+.margins { 
+    margin-bottom: 1em;
+}
+
+.title-text { 
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.subtitle-text { 
+    text-align: center;
+    color: white;
+}
+
+.input-text { 
+    color: white;
+    text-align: center;
+}
+
+.input-box { 
+    text-align: center;
+    
+}
+
+#textarea-mod1, #textarea-mod2 {
+    border-radius: 0.5em;
+    border-color: var(--primary-color);
+    border-width: 1px;
+    text-align: center;
+
+}
+
+#btn-check {
+    display: block;
+    margin: auto;
+    background-color: var(--primary-color);
+    color: white;
+    border-radius: 0.5em;
+    border-width: 1px;
+    padding: 1em 2em;
+    font-family: 'Roboto Mono', monospace;
+    border-color: white;
+}
+
+.return-title { 
+    color: white;
+    text-align: center;
+    font-size: larger;
+}
+
+.table-return {
+    margin: auto;    
+} 
+
+
+.table-rows { 
+    /* border-style: solid;
+    border-width: 1px; */
+    padding: 1em;
+}
+
+th { 
+    color: white;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-width: 0.1px;
+    padding: 2em;
+}
+
+
+td { 
+    color: white;
+    border-color: var(--primary-color);
+    border-style: solid;
+    border-width: 0.1px;
+    padding: 2em;
+}
+
+#end-message { 
+    text-align: center;
+    color: white;
+}
+
