@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cash Register Manager app </title>
+    <link href="./styles.css" rel="stylesheet"> 
+</head>
+
+<body>
+        <section> 
+            <div class="title-text"> <h1> Cash Register Manager </h1>  </div>
+        </section>
+
+        <section class="margins"> </section> 
+
+        <section>
+            <div class="subtitle-text"> Enter the bill amount and cash given by the customer and know the minimum number of notes to return </div>
+        </section>
+
+        <section class="margins"> </section> 
+
+        <section> 
+            <div class="input-text"> Bill amount: </div>
+            <div class="input-box"> 
+                <input type="text" id="textarea-mod1"> </textarea>
+            </div> 
+        </section>
+
+        <section class="margins"> </section> 
+
+        <section> 
+            <div class="input-text"> Cash given: </div>
+            <div class="input-box"> 
+                <input type="text" id="textarea-mod2"> </textarea>
+            </div> 
+        </section>
+
+        <section class="margins"> </section> 
+
+        <section> 
+            <button id="btn-check"> Check </button>
+        </section>
+
+        <section class="margins"> </section> 
+
+        <section> 
+            <div class="return-title"> Return change </div>
+        </section>
+
+        <section class="margins"> </section> 
+        <!-- <section class="margins"> </section>  --> 
+
+        <table class="table-return">
+            <tr class="table-rows">
+                <th> No of notes </th>
+                <td class="td-1"> </td>
+                <td class="td-1">  </td>
+                <td class="td-1">  </td>
+                <td class="td-1">  </td>
+                <td class="td-1">  </td>
+                <td class="td-1">  </td>
+                <td class="td-1">  </td>
+            </tr> 
+
+            <tr class="table-rows"> 
+                <th> Note </th>
+                <td> 2000  </td>
+                <td> 500  </td>
+                <td> 100 </td>
+                <td> 20 </td>
+                <td> 10 </td>
+                <td> 5 </td>
+                <td> 1 </td>
+            </tr>
+        </table>
+
+        <section class="margins"> </section> 
+
+        <div id="end-message"> </div>
+
+        <script src="./app.js"></script>
+</body>
+</html>
