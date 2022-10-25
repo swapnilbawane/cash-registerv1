@@ -78,15 +78,22 @@ th {
     border-style: solid;
     border-width: 0.1px;
     padding: 2em;
+    border-collapse: collapse;
 }
 
+/* border: 2px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.4rem; */
 
 td { 
     color: white;
     border-color: var(--primary-color);
     border-style: solid;
     border-width: 0.1px;
-    padding: 2em;
+    width: 0%;
+    padding: 0.4em;
+    border-collapse: collapse;
 }
 
 #end-message { 
@@ -94,3 +101,6 @@ td {
     color: white;
 }
 
+tr { 
+    border-collapse: collapse;
+}
