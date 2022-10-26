@@ -23,6 +23,7 @@ body {
 .subtitle-text { 
     text-align: center;
     color: white;
+    width:fit-content;
 }
 
 .input-text { 
