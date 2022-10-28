@@ -99,7 +99,9 @@ function lessThanZero() {
 
 function exactChange() { 
     let changeReturned = cashGiven.value - billAmount.value;
+    let displayReturned = changeReturned;
     console.log(changeReturned);
+    console.log(typeof (changeReturned));
  
     for ( var i=0; i<notes.length; i++)
     { 
@@ -107,4 +109,9 @@ function exactChange() {
       changeReturned = changeReturned%notes[i]; 
       tableCell[i].innerText = numberOfNotes;    
     }
+
+    endMessage.style.display = "block";
+    endMessage.innerText = "Your return change amount is Rs. "+displayReturned;
+
+
 }

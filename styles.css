@@ -18,12 +18,14 @@ body {
 .title-text { 
     text-align: center;
     color: var(--primary-color);
+    margin: auto;
 }
 
 .subtitle-text { 
     text-align: center;
     color: white;
     width:fit-content;
+    margin: auto;
 }
 
 .input-text { 
@@ -41,7 +43,8 @@ body {
     border-color: var(--primary-color);
     border-width: 1px;
     text-align: center;
-
+    padding: 0.5rem;
+    font-size: larger;
 }
 
 #btn-check {
@@ -93,13 +96,20 @@ td {
     border-style: solid;
     border-width: 0.1px;
     width: 0%;
-    padding: 0.4rem;
+    padding: 0.6rem;
     border-collapse: collapse;
 }
 
 #end-message { 
     text-align: center;
     color: white;
+    font-size: larger;
+    border: 1px solid;
+    border-radius: 0.5rem;
+    width: fit-content;
+    margin: 1.5rem auto;
+    padding: 1rem;
+
 }
 
 tr { 
