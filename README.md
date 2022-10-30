@@ -16,5 +16,5 @@ If the amount given and bill amount is the same, it informs the message no chang
 Error checks: 
 The app shows an error when an empty string, character or amount less than 0 is entered. 
 
-![Screenshot of UI](https://github.com/swapnilbawane/markten-swapnil/blob/main/demo/demoscreen10final.jpg?raw=true)
+![Screenshot of UI](https://github.com/swapnilbawane/cash-registerv1/blob/main/screenshot/m10-home.png?raw=true)
 
